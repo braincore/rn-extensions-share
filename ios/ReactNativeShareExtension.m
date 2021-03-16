@@ -22,6 +22,10 @@ NSExtensionContext* extensionContext;
 
 RCT_EXPORT_MODULE();
 
+- (BOOL)isModalInPresentation {
+    return true;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
